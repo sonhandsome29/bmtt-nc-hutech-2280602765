@@ -8,7 +8,7 @@ import hashlib
 
 # Initialize server socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server_socket.bind(('localhost', 12345))
+server_socket.bind(('localhost', 2765))
 server_socket.listen(5)
 
 # Generate RSA key pair
